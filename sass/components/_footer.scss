@@ -1,0 +1,126 @@
+.footer-info {
+  background-color: var(--background-color-secondary-dark);
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.footer-info .contacts {
+  margin-top: 20px;
+  width: 231px;
+}
+.contacts-street {
+  margin-bottom: 9px;
+}
+.contacts-street .street {
+  display: block;
+  color: var(--secondary-text-color);
+  font-style: normal;
+  font-weight: 400;
+  text-decoration: none;
+
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.contacts-street .street:hover,
+.contacts-street .street:focus {
+  color: var(--accent-color);
+}
+.footer-info .mailto {
+  margin-bottom: 9px;
+}
+.footer-info .contacts-mail,
+.footer-info .contacts-tel {
+  display: block;
+  color: var(--contacts-footer-color);
+  font-style: normal;
+  font-weight: 400;
+  text-decoration: none;
+
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.footer-info .contacts-mail:hover,
+.footer-info .contacts-mail:focus {
+  color: var(--accent-color);
+}
+.footer-info .contacts-tel:hover,
+.footer-info .contacts-tel:focus {
+  color: var(--accent-color);
+}
+
+/* Footer social links */
+.contacts-group {
+  display: flex;
+}
+.socials-footer {
+  margin-left: 70px;
+  margin-top: 12px;
+  width: 206px;
+  height: 80px;
+}
+.footer-title {
+  color: var(--secondary-text-color);
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+.social-links-footer {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.social-item-footer {
+  width: 44px;
+  height: 44px;
+}
+.social-item-link-footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  width: 100%;
+  height: 100%;
+
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.social-item-link-footer:hover,
+.social-item-link-footer:focus {
+  background-color: var(--accent-color);
+}
+.social-icon-footer {
+  fill: var(--secondary-text-color);
+}
+
+/* Приєднуйтесь */
+.join-footer {
+  margin-left: 93px;
+  margin-top: 12px;
+  width: 570px;
+  height: 86px;
+}
+.join-footer-wrap {
+  display: flex;
+}
+.join-footer-input {
+  display: block;
+  width: 358px;
+  height: 50px;
+  padding: 15px 16px;
+
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  background-color: transparent;
+
+  color: var(--secondary-text-color);
+}
+.join-footer-input::placeholder {
+  font-size: 16px;
+  line-height: 1.25;
+  color: rgba(255, 255, 255, 0.6);
+}
+.icon-plane-footer {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  margin-left: 10px;
+  vertical-align: middle;
+  fill: var(--secondary-text-color);
+}

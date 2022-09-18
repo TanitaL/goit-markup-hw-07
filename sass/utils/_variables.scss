@@ -1,0 +1,31 @@
+:root {
+  --primery-text-color: #757575;
+  --title-and-nav-text-color: #212121;
+  --accent-color: #2196f3;
+  --logo-color: #000000;
+  --secondary-text-color: #ffffff;
+  --contacts-footer-color: rgba(255, 255, 255, 0.6);
+  --background-color-secondary-dark: #2f303a;
+  --background-color-secondary-light: #f5f4fa;
+  --primary-background-color: #ffffff;
+  --icon-color: #afb1b8;
+}
+
+/* основний колір тексту #757575 */
+/* другорядний колір тексту #212121*/
+/* білий колір тексту #FFFFFF */
+/* колір лого: чорний #000000 */
+/* колір e-mail та телефон в footer: rgba(255, 255, 255, 0.6) */
+/* колір фону hero та footer: #2F303A */
+/* колір фону для Наша команда: #F5F4FA */
+/* акцент тексту #2196F3 */
+
+body {
+  margin: 0;
+  background-color: var(--primary-bg-color);
+  color: var(--primery-text-color);
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.03em;
+  font-size: 14px;
+  line-height: 1.71;
+}
