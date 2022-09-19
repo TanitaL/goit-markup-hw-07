@@ -47,18 +47,14 @@
 .team__soc {
   gap: 10px;
 }
-
 /* Footer social links */
-.footer-container {
-  display: flex;
+.footer-soc {
+  margin-left: 70px;
+  align-items: baseline;
 }
 .footer-socials {
   width: 206px;
   height: 80px;
-}
-.footer-soc {
-  margin-left: 70px;
-  margin-top: 12px;
 }
 .footer-socials__list {
   display: flex;

@@ -18,11 +18,8 @@
   margin-left: auto;
 }
 .hero__title {
+  @mixin font(900, 44px, 1.36, 0.06em);
   color: var(--secondary-text-color);
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 1.36;
-  letter-spacing: 0.06em;
   text-transform: uppercase;
   width: 696px;
   margin-left: auto;
@@ -94,11 +91,9 @@
   pointer-events: none;
 }
 .modal__title {
+  @mixin font(700, 20px, 1.15, null);
   text-align: center;
   margin-bottom: 12px;
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 1.15;
   color: var(--title-and-nav-text-color);
 }
 /* Modal form */
@@ -119,10 +114,8 @@
   margin-bottom: 20px;
 }
 .form__label {
+  @mixin font(null, 12px, 1.17, 0.01em);
   display: block;
-  font-size: 12px;
-  line-height: 1.17;
-  letter-spacing: 0.01em;
   color: var(--primery-text-color);
   margin-bottom: 4px;
 }
@@ -178,9 +171,7 @@
   border: 1px solid rgba(33, 150, 243, 1);
 }
 .comments__textarea::placeholder {
-  font-size: 12px;
-  line-height: 1.17;
-  letter-spacing: 0.01em;
+  @mixin font(null, 12px, 1.17, 0.01em);
   color: rgba(117, 117, 117, 0.5);
 }
 /* Check-box */
