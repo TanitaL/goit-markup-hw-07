@@ -1,17 +1,17 @@
 .title {
-  @include font(700, 36px, 1.17, null);
-  color: var(--title-and-nav-text-color);
+  @include font(700, 36px, 1.17, 0.03em);
+  color: $title-and-nav-text-color;
   text-align: center;
   margin-bottom: 50px;
 }
 .pre-title {
-  color: var(--secondary-text-color);
+  color: $secondary-text-color;
   margin-bottom: 20px;
   text-transform: uppercase;
 }
 .features__title {
-  @include font(700, null, 1.14, null);
+  @include font(700, 14px, 1.14, 0.03em);
   margin-bottom: 10px;
   text-transform: uppercase;
-  color: var(--title-and-nav-text-color);
+  color: $title-and-nav-text-color;
 }
