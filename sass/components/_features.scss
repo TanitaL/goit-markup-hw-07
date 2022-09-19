@@ -15,8 +15,8 @@
   justify-content: center;
   width: 270px;
   height: 120px;
-  background-color: var(--background-color-secondary-light);
-  border-radius: 4px;
+  background-color: $background-color-secondary-light;
+  border-radius: $border-radius;
   margin-bottom: 30px;
 }
 .features__icon {

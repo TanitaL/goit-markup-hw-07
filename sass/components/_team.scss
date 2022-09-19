@@ -16,15 +16,12 @@
   padding-bottom: 30px;
 }
 .team__name {
+  @include font($lh: 1.19, $ls: null);
   color: var(--title-and-nav-text-color);
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.19;
   text-align: center;
 }
 .team__position {
-  font-size: 16px;
-  line-height: 1.19;
+  @include font($fw: null, $lh: 1.19, $ls: null);
   text-align: center;
   margin-top: 10px;
   margin-bottom: 16px;

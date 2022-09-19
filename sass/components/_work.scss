@@ -4,7 +4,7 @@
 .work__item {
   display: flex;
 }
-.work-list:not(:last-child) {
+.work__list:not(:last-child) {
   margin-right: 30px;
   max-width: 370px;
 }
@@ -12,6 +12,7 @@
   position: relative;
 }
 .work__text {
+  @include font(700, null, 1.14, null);
   position: absolute;
   bottom: 0;
   width: 370px;
@@ -19,8 +20,6 @@
   padding-top: 27px;
   padding-bottom: 27px;
 
-  font-weight: 700;
-  line-height: 1.14;
   text-align: center;
   color: var(--secondary-text-color);
   background-color: rgba(47, 48, 58, 0.8);
